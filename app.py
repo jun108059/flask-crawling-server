@@ -18,7 +18,7 @@ element_id.clear()
 element_pw = browser.find_element_by_id("pw")  # pw 텍스트 입력 상자
 element_pw.clear()
 
-element_id.send_keys("아이디").
+element_id.send_keys("아이디")
 element_pw.send_keys("비밀번호")
 
 button = browser.find_element_by_css_selector("input.btn_global[type=submit]")
